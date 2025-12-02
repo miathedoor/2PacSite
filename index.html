@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Y2K Digital Sanctuary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=VT323&family=Verdana:wght@400;700&display=swap');
+      
+      body {
+        background-color: #1a120b;
+        background-image: 
+          linear-gradient(rgba(139, 69, 19, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(139, 69, 19, 0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+        font-family: 'Verdana', sans-serif;
+        overflow-x: hidden;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+        background: #d7ccc8;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #8d6e63;
+        border: 2px solid #ffffff;
+        border-right-color: #3e2723;
+        border-bottom-color: #3e2723;
+      }
+
+      /* CRT Scanline Overlay - Fixed to screen */
+      .scanlines {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+        z-index: 9999;
+        background-size: 100% 2px, 3px 100%;
+        pointer-events: none;
+      }
+
+      .retro-border {
+        box-shadow: inset -2px -2px #0a0a0a, inset 2px 2px #dfdfdf, inset -3px -3px grey, inset 3px 3px #fff;
+      }
+      
+      .retro-border-outset {
+        box-shadow: inset -2px -2px #0a0a0a, inset 2px 2px #fff, inset -3px -3px grey, inset 3px 3px #dfdfdf;
+      }
+
+      .text-glow {
+        text-shadow: 0 0 5px #d7ccc8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="text-xs sm:text-sm">
+    <div id="root"></div>
+  </body>
+</html>

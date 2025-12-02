@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "status": "ONLINE",
+    "marquee": "~~~ WELCOME TO TUPAC GOONSITE ~~~ LISTENING TO: RATHER BE YA BESTFRIEND ~~~ DON'T FORGET TO SIGN THE GUESTBOOK ~~~ XD ~~~"
+  },
+  "gallery": {
+    "windowTitle": "Tupac_Viewer.exe",
+    "loadingText": "Loading lyrix...",
+    "loadingSpinner": ":3",
+    "defaultCaption": "Click the button for some lyrix...",
+    "buttonVibeCheck": "L.Y.R.I.X.",
+    "images": [
+      {
+        "id": 1,
+        "url": "https://picsum.photos/600/600?random=1",
+        "title": "Summer 2004",
+        "defaultVibe": "hanging at the skatepark"
+      },
+      {
+        "id": 2,
+        "url": "https://picsum.photos/600/600?random=2",
+        "title": "My Room",
+        "defaultVibe": "listening to mcr alone"
+      },
+      {
+        "id": 3,
+        "url": "https://picsum.photos/600/600?random=3",
+        "title": "Mall Trip",
+        "defaultVibe": "food court pizza with besties"
+      },
+      {
+        "id": 4,
+        "url": "https://picsum.photos/600/600?random=4",
+        "title": "Digital Camera",
+        "defaultVibe": "blurry nights out"
+      }
+    ]
+  },
+  "sidebar": {
+    "updates": {
+      "title": "Messages from the Ghost of Tupac:",
+      "entries": [
+        {
+          "date": "[2025/12/02]",
+          "text": "my underage girlfriend's bday!! (still underage as of 2day)"
+        },
+        {
+          "date": "[2025/09/13]",
+          "text": "next year gon be the big 30 rawr"
+        },
+        {
+          "date": "[2025/03/29]",
+          "text": "no longer homeless, found a DM chat to haunt for now"
+        }
+      ]
+    },
+    "friendSpace": {
+      "title": "Friend_Space.exe",
+      "userPrefix": "User_"
+    },
+    "views": "Views: 1,337,420"
+  },
+  "player": {
+    "menu": "MENU"
+  },
+  "footer": {
+    "madeBy": "Constructed by a ",
+    "role": "Non-Fetishizer",
+    "fromYear": " in the year 2025.",
+    "copyright": "© 1996 - Forever."
+  },
+  "gemini": {
+    "promptStart": "Write a short, nostalgic, early 2000s internet style blog caption (max 20 words) for a photo about: ",
+    "promptEnd": ". Use slang like 'rawr', 'xD', 'lmao', or emo/scene kid aesthetic. Keep it lowercase.",
+    "error": "error loading vibe... xD"
+  }
+}
